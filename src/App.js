@@ -5,6 +5,9 @@ import homeLogo from "./Component/image/homeLogo.png";
 import homeimg from "./Component/image/Rectangle159.png";
 import company from "./Component/image/ACompny.png";
 import bw from "./Component/image/BW.png";
+import ftr from "./Component/image/Footer.png";
+import lgo from "./Component/image/logo.png";
+
 
 function App() {
   return (
@@ -12,6 +15,24 @@ function App() {
       {/* <LandingPage/> */}
       <div className="w-[100%] bg-[#000000]">
         <div className="w-[100%]">
+          <section className="w-[100%] px-[36px] py-[20px] flex justify-between items-center">
+            <img src={lgo} className="w-[102px]"></img>
+            <div className="flex items-center ">
+              <div className="text-white w-[617px] flex justify-between">
+                <p className="cursor-pointer">ABOUT</p>
+                <p className="cursor-pointer">WORK</p>
+                <p className="cursor-pointer">SERVICES</p>
+                <p className="cursor-pointer">BLOG</p>
+                <p className="cursor-pointer">CLIENTS</p>
+                <p className="cursor-pointer">EXPERTISE</p>
+              </div>
+              <button className="ml-[3rem] w-[140px] h-[50px] rounded-[5px] border-[2px] border-white text-white">LET'S TALK</button>
+            </div>
+          </section>
+
+
+
+
           <section className="h-[100vh] flex flex-col justify-between py-[6rem]">
             <div className="w-[100%] pl-[84px] pr-[84px] flex">
               <div
@@ -199,7 +220,7 @@ function App() {
 
 
           <section className="w-[100%] h-[500px] bg-[#6335F0]">
-
+            <img src={ftr} className="w-[100%]"></img>
           </section>
         </div>
       </div>
